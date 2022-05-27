@@ -4,9 +4,12 @@ using namespace std;
 
 int main() {
 
-    itn a ;
-    int b;
-    int c = a * b;
-    cout << "area is " << c ;
+    int length ;
+    int breath;
+    int area = length * breath;
+    if(length == breath)
+    cout << "area of a square is " << area;
+    else
+    cout << "area of a reactangle is  " << area ;
     return 0;
 }
